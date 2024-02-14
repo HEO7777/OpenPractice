@@ -1,2 +1,16 @@
-"Fly me into Alpha Centauri" question on https://www.acmicpc.net/problem/1011
+# "Fly me into Alpha Centauri" question on https://www.acmicpc.net/problem/1011
+
+
+T = int(input())
+# 1    12     123   234   345   456   567
+for _ in range(T):
+    x, y = map(int, input().split())
+    distance = y-x # distance to travel
+    k = 0 # travel distance
+    # for -> approximately 16 times
+    # find min({n|2^{n-2}(2^{n-1}+5)-1 = distance})
+    while ( distance):
+        k += k+1
+    
+# ... I don't know!
 
